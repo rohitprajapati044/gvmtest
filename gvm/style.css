@@ -1,0 +1,118 @@
+
+
+.main{
+    text-align: center;
+    background-color: #eeb78e;
+    margin:0;
+    padding: 10px;    
+    text-transform: uppercase;
+}
+
+.main h3{
+    font-size: 18px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.wp{
+    word-spacing: 30px;
+}
+
+.bg-1{
+    background-color: #f6ebe7;
+}
+
+.bg-dark {
+    background-color: #141414 !important;
+}
+
+.bg-1 {
+    background-image: url("images/1.PNG");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.lg{
+    color: white;
+}
+
+.lg:hover{
+    color: white !important;
+}
+
+.d-flex {
+    display: flex !important;
+    align-items: center;
+}
+
+.search {
+    border-radius: 30px;    
+
+    background-color: #232323;
+}
+
+.bt{
+    text-align: center;
+    border-radius: 0;
+    background-color: #141414;
+    border-color: #141414;
+    text-transform: uppercase;
+}
+
+.bt:hover{
+    text-align: center;
+    border-radius: 0;
+    background-color:#834415;
+    border-color: #834415;
+    text-transform: uppercase;
+}
+
+
+
+
+.card-title{
+    color: #eeb78e;
+    font-weight: bold;
+}
+
+.card-1:hover{
+    padding: 10px;
+    box-shadow: 5px solid #eeb78e;
+    border: 5px solid #eeb78e;
+    border-radius: 0;
+}
+
+footer{
+    background-color: #141414;
+    color: white;
+}
+
+.ft{
+    text-transform: uppercase;
+
+}
+
+.sco-ico{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.send
+{
+    padding: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .bg-1 {
+        background-size: cover;
+        height: 224px !important;
+    }
+  }
